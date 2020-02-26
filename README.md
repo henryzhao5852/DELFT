@@ -5,10 +5,11 @@ The source codes of the paper "Complex Factoid Question Answering with a Free-Te
 # Dependency Installation
 Run python setup.py develop to install required dependencies for DELFT.
 
+
 # Data and trained model Download
 
-For each experimented dataset, we provide processed graph input [here](), after downloading, unzip it and put into data folder
-We also provide trained model [here](), unzip the downloaded model and put into experiments folder
+For each experimented dataset, we provide processed graph input [here](https://obj.umiacs.umd.edu/delft_release/grounded_graph.zip), after downloading, unzip it and put into data folder (the tokenized version is for glove setting, while the other is for bert setting).
+We also provide trained model [here](https://obj.umiacs.umd.edu/delft_release/trained_models.zip), unzip the downloaded model and put into experiments folder. Also, the original datasets are [here](https://obj.umiacs.umd.edu/delft_release/original_questions.zip).
 
 
 ## Run Experiments
